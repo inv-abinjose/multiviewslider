@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import '~swiper/swiper-bundle';
+
+
+.gallery-top {
+  height: 80%;
+  width: 100%;
+}
+@media (max-width: 767px) {
+  .gallery-thumbs  {
+    display: none;
+  }
+}
+.gallery-thumbs {
+  
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.gallery-thumbs .swiper-slide {
+  width: 25%;
+  height: 100%;
+
+}
+
+.gallery-thumbs .swiper-slide-thumb-active {
+
+}

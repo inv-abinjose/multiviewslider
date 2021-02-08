@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "multiviewslider"
+    }
+  },
+  "defaultProject": "multiviewslider",
+  "cli": {
+    "analytics": "5bdda990-9403-4fd4-8dab-c69e6652cb08"
+  }
 }
