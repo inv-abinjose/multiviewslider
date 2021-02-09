@@ -29,7 +29,14 @@
   box-sizing: border-box;
   padding: 10px 0;
 }
-
+.swiper-slide-prev
+{
+  opacity: .5;
+}
+.swiper-slide-next
+{
+  opacity: .5;
+}
 .gallery-thumbs .swiper-slide {
   width: auto  !important;
   height: 100%;
