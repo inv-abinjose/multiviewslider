@@ -32,11 +32,18 @@
 }
 .swiper-slide-prev
 {
-  opacity: .5;
+  filter: brightness(50%); 
 }
-.swiper-slide-next
+
+.swiper-slide-visible 
 {
-  opacity: .5;
+
+  filter: brightness(100%) !important; 
+}
+
+ .swiper-slide-next
+{
+  filter: brightness(50%); 
 }
 .gallery-thumbs .swiper-slide {
   width: auto  !important;
@@ -49,8 +56,16 @@
 
   left: 0;
   width: 100%;
-  color: red;
+
 }
- .swiper-slide-thumb-active {
-opacity: .5;
+
+
+ .swiper-slide-thumb-active
+{
+  opacity: .5 !important;
+  background: linear-gradient( rgba(20,20,20, .5), rgba(20,20,20, .5));
+  }
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+    
+    margin: 0 3px;
 }

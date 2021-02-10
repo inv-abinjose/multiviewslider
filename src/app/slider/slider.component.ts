@@ -40,10 +40,7 @@ screenwidth:number=window.innerWidth;
     var galleryThumbs = new Swiper('.gallery-thumbs', {
       autoHeight: true, //enable auto height
   spaceBetween: 20,
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
-  },
+  
       slidesPerView: 4,
       freeMode: true,
       watchSlidesVisibility: true,
